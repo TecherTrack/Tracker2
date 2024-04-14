@@ -1,9 +1,9 @@
 spring:
   application.name: TechTrack
   datasource:
-    username: postgres
+    username: tracker
     password:
-    url: jdbc:postgresql://localhost:5432/trackdb
+    url: jdbc:postgres://tracker:XhjdKc3dAEsr8OLzUVGk4GBaiiB1DwVc@dpg-codne4i0si5c73940pa0-a/trackdb_si57
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate.ddl-auto: update
